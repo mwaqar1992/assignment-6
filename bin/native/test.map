@@ -1,0 +1,2856 @@
+Archive member included to satisfy reference by file (symbol)
+
+/home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                              /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o (main)
+/home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o (board_init)
+/home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+                              /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o) (_mutex_lock)
+/home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                              /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o) (sched_active_thread)
+/home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o (kernel_init)
+/home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o (_assert_failure)
+/home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+                              /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o) (thread_add_to_list)
+/home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+                              /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o) (assert_crash_message)
+/home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o (real_exit)
+/home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o) (native_interrupts_enabled)
+/home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                              /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o) (thread_stack_init)
+/home/waqar/RIOT/examples/test/bin/native/cpu.a(tramp.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o) (_native_sig_leave_tramp)
+/home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+                              /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o) (_native_LED_GREEN_ON)
+/home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o (tty_uart_setup)
+/home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+                              /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o) (pm_set_lowest)
+/home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+                              /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o) (ps)
+/home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o) (_xtimer_now64)
+/home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+                              /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o) (_xtimer_tsleep)
+/home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o (periph_init)
+/home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+                              /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o) (auto_init)
+/home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+                              /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o) (auto_init_netdev_tap)
+/home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                              /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o) (msg_send_int)
+/home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+                              /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o) (native_async_read_setup)
+/home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+                              /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o) (_div_mulhi64)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+                              /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o) (gnrc_netif_ethernet_create)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o) (gnrc_netif_create)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o) (gnrc_pktbuf_remove_snip)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                              /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o) (gnrc_pktbuf_init)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                              /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o) (gnrc_pktdump_init)
+/home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+                              /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o) (netdev_tap_setup)
+/home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o) (od_hex_dump)
+/home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+                              /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o) (rtc_init)
+/home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+                              /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o) (timer_init)
+/home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o) (rmutex_lock)
+/home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                              /home/waqar/RIOT/examples/test/bin/native/od.a(od.o) (print_byte_hex)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o) (gnrc_netapi_dispatch)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o) (gnrc_netif_hdr_print)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o) (gnrc_netreg_lookup)
+/home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+                              /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o) (gnrc_pktsnip_search_type)
+/home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+                              /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o) (iolist_count)
+/home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+                              /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o) (netdev_eth_get)
+/usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a(_udivdi3.o)
+                              /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o) (__udivdi3)
+/usr/lib32/libc_nonshared.a(elf-init.oS)
+                              /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o (__libc_csu_init)
+
+As-needed library included to satisfy reference by file (symbol)
+
+libdl.so.2                    /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o) (dlsym@@GLIBC_2.0)
+
+Discarded input sections
+
+ .rodata        0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+ .data          0x0000000000000000        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .bss._native_unix_socket_path
+                0x0000000000000000        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+ .text.mutex_unlock_and_sleep
+                0x0000000000000000       0xba /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .openocd       0x0000000000000000        0x2 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.clist_lpoprpush
+                0x0000000000000000       0x40 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.pid_is_valid
+                0x0000000000000000       0x45 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.thread_get
+                0x0000000000000000       0x51 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.thread_getstatus
+                0x0000000000000000       0x55 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.thread_getname
+                0x0000000000000000       0x51 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.thread_sleep
+                0x0000000000000000       0x5e /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.thread_wakeup
+                0x0000000000000000       0xa5 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.thread_yield
+                0x0000000000000000       0x71 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .text._xtimer_usec_from_ticks64
+                0x0000000000000000       0x36 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .text.xtimer_now64
+                0x0000000000000000       0x48 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .text.xtimer_now_usec64
+                0x0000000000000000       0x44 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .text.xtimer_usec_from_ticks64
+                0x0000000000000000       0x43 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .text._native_read
+                0x0000000000000000       0x5c /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .text._gettimeofday
+                0x0000000000000000       0x72 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .text.print_thread_sigmask
+                0x0000000000000000       0xf9 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .text.print_sigmasks
+                0x0000000000000000       0x92 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .text.native_print_signals
+                0x0000000000000000      0x1b4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .text.unregister_interrupt
+                0x0000000000000000       0x63 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .text.thread_print_stack
+                0x0000000000000000       0x25 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(tramp.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(tramp.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_GREEN_OFF
+                0x0000000000000000       0x35 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_GREEN_TOGGLE
+                0x0000000000000000       0x35 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_RED_ON
+                0x0000000000000000       0x35 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .text._native_LED_RED_TOGGLE
+                0x0000000000000000       0x35 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .bss.uart_config
+                0x0000000000000000        0x8 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .bss.tty_fds   0x0000000000000000        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .text.io_signal_handler
+                0x0000000000000000       0xde /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .text.uart_init
+                0x0000000000000000      0x324 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .text.uart_write
+                0x0000000000000000       0x53 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .text.uart_poweron
+                0x0000000000000000       0x2b /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .text.uart_poweroff
+                0x0000000000000000       0x2b /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+ .text.pm_reboot
+                0x0000000000000000       0x68 /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._xtimer_now64
+                0x0000000000000000       0x56 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text.list_remove
+                0x0000000000000000       0x61 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text.div_u64_by_15625
+                0x0000000000000000       0x8b /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text.div_u64_by_1000000
+                0x0000000000000000       0x48 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_usec_from_ticks64
+                0x0000000000000000       0x36 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_now
+                0x0000000000000000       0x29 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text.xtimer_now64
+                0x0000000000000000       0x48 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text.xtimer_usec_from_ticks64
+                0x0000000000000000       0x43 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_periodic_wakeup
+                0x0000000000000000      0x107 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._callback_msg
+                0x0000000000000000       0x47 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._setup_msg
+                0x0000000000000000       0x55 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_set_msg
+                0x0000000000000000       0x65 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_set_msg64
+                0x0000000000000000       0x79 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._callback_wakeup
+                0x0000000000000000       0x3b /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_set_wakeup
+                0x0000000000000000       0x5f /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_set_wakeup64
+                0x0000000000000000       0x73 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text.xtimer_now_timex
+                0x0000000000000000       0x7f /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._setup_timer_msg
+                0x0000000000000000       0x59 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._msg_wait
+                0x0000000000000000       0x76 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_msg_receive_timeout64
+                0x0000000000000000       0x81 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_msg_receive_timeout
+                0x0000000000000000       0x75 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._mutex_timeout
+                0x0000000000000000       0x8e /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text.xtimer_mutex_lock_timeout
+                0x0000000000000000       0xa4 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_send_receive
+                0x0000000000000000       0xae /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_reply_int
+                0x0000000000000000       0x8b /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_try_receive
+                0x0000000000000000       0x3a /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_avail
+                0x0000000000000000       0x55 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_queue_print
+                0x0000000000000000      0x119 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_cleanup
+                0x0000000000000000       0x61 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+ .text._div_mulhi64
+                0x0000000000000000      0x1b6 /home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_numof
+                0x0000000000000000       0x5b /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_iter
+                0x0000000000000000       0x81 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_get_by_pid
+                0x0000000000000000       0x62 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._dehex   0x0000000000000000       0x72 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_addr_from_str
+                0x0000000000000000      0x16e /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_is_6ln
+                0x0000000000000000       0x4f /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pkt_count
+                0x0000000000000000       0x48 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .rodata        0x0000000000000000       0x22 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pktbuf_get_iovec
+                0x0000000000000000       0xf6 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pktbuf_replace_snip
+                0x0000000000000000      0x1b8 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pkt_len_upto
+                0x0000000000000000       0x61 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_start_write
+                0x0000000000000000       0xd3 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._print_chunk
+                0x0000000000000000       0x60 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._print_unused
+                0x0000000000000000       0x48 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_stats
+                0x0000000000000000      0x18c /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_duplicate_upto
+                0x0000000000000000      0x169 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .text.rtc_poweroff
+                0x0000000000000000       0x61 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .text.rtc_set_time
+                0x0000000000000000       0x7f /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .text.rtc_get_time
+                0x0000000000000000       0xae /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .text.rtc_set_alarm
+                0x0000000000000000       0xa0 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .text.rtc_get_alarm
+                0x0000000000000000       0x84 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .text.rtc_clear_alarm
+                0x0000000000000000       0x6b /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .text.timer_clear
+                0x0000000000000000       0x42 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .text.timer_start
+                0x0000000000000000       0x2b /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .text.timer_stop
+                0x0000000000000000       0x2b /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .text.rmutex_trylock
+                0x0000000000000000       0x3a /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .rodata._tenmap
+                0x0000000000000000       0x20 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text._is_digit
+                0x0000000000000000       0x42 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_bytes_hex
+                0x0000000000000000       0x77 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_str  0x0000000000000000       0x7b /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text._byte_mod25
+                0x0000000000000000       0x4f /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text._hex_nib
+                0x0000000000000000       0x43 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_hex_bytes
+                0x0000000000000000       0xd7 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_u64_hex
+                0x0000000000000000       0x4a /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_u64_dec
+                0x0000000000000000      0x27d /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_u32_dec
+                0x0000000000000000       0xc5 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_u16_dec
+                0x0000000000000000       0x44 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_s64_dec
+                0x0000000000000000       0x81 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_s32_dec
+                0x0000000000000000       0x70 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_s16_dec
+                0x0000000000000000       0x44 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_s16_dfp
+                0x0000000000000000       0x4d /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .rodata        0x0000000000000000        0xe /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_s32_dfp
+                0x0000000000000000      0x196 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_float
+                0x0000000000000000      0x171 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.fmt_lpad
+                0x0000000000000000       0x8b /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.scn_u32_dec
+                0x0000000000000000       0x8d /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.print_u32_dec
+                0x0000000000000000       0x52 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.print_s32_dec
+                0x0000000000000000       0x52 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.print_u64_hex
+                0x0000000000000000       0x56 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.print_u64_dec
+                0x0000000000000000       0x5b /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.print_s64_dec
+                0x0000000000000000       0x5d /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text.print_float
+                0x0000000000000000       0x5b /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .rodata        0x0000000000000000       0x22 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text._get_set
+                0x0000000000000000       0xa8 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text.gnrc_netapi_send
+                0x0000000000000000       0x49 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text.gnrc_netapi_receive
+                0x0000000000000000       0x49 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text.gnrc_netapi_get
+                0x0000000000000000       0x67 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text.gnrc_netapi_set
+                0x0000000000000000       0x67 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_init
+                0x0000000000000000       0x2f /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .rodata        0x0000000000000000       0x22 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_register
+                0x0000000000000000       0x89 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_unregister
+                0x0000000000000000       0xa3 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_calc_csum
+                0x0000000000000000       0x42 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+ .text.gnrc_pktsnip_search_type
+                0x0000000000000000       0x4e /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+ .text.iolist_size
+                0x0000000000000000       0x4d /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+ .text          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .data          0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .bss           0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .text          0x0000000000000000      0x122 /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a(_udivdi3.o)
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a(_udivdi3.o)
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a(_udivdi3.o)
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a(_udivdi3.o)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a(_udivdi3.o)
+ .group         0x0000000000000000        0x8 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .data          0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .bss           0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .text.unlikely
+                0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .text.__x86.get_pc_thunk.bx
+                0x0000000000000000        0x4 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib32/libc_nonshared.a(elf-init.oS)
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+ .text          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+ .data          0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+ .bss           0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+ .note.GNU-stack
+                0x0000000000000000        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+LOAD /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+START GROUP
+LOAD /home/waqar/RIOT/examples/test/bin/native/application_test.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/auto_init.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/auto_init_saul.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/board.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/core.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/cpu.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/div.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/fmt.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/iolist.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/native-drivers.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/od.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/periph.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/phydat.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/ps.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/saul.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/saul_reg.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/shell.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/shell_commands.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/sys.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/xtimer.a
+LOAD /home/waqar/RIOT/examples/test/bin/native/periph_common.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/libm.so
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/libdl.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/libc.so
+START GROUP
+LOAD /lib32/libc.so.6
+LOAD /usr/lib32/libc_nonshared.a
+LOAD /lib32/ld-linux.so.2
+END GROUP
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc_s.so
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+LOAD /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+                [!provide]                        PROVIDE (__executable_start, 0x8048000)
+                0x0000000008048154                . = (0x8048000 + SIZEOF_HEADERS)
+
+.interp         0x0000000008048154       0x13
+ *(.interp)
+ .interp        0x0000000008048154       0x13 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.note.ABI-tag   0x0000000008048168       0x20
+ .note.ABI-tag  0x0000000008048168       0x20 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.note.gnu.build-id
+                0x0000000008048188       0x24
+ *(.note.gnu.build-id)
+ .note.gnu.build-id
+                0x0000000008048188       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.hash
+ *(.hash)
+
+.gnu.hash       0x00000000080481ac       0xc0
+ *(.gnu.hash)
+ .gnu.hash      0x00000000080481ac       0xc0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.dynsym         0x000000000804826c      0x390
+ *(.dynsym)
+ .dynsym        0x000000000804826c      0x390 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.dynstr         0x00000000080485fc      0x222
+ *(.dynstr)
+ .dynstr        0x00000000080485fc      0x222 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.gnu.version    0x000000000804881e       0x72
+ *(.gnu.version)
+ .gnu.version   0x000000000804881e       0x72 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.gnu.version_d  0x0000000008048890        0x0
+ *(.gnu.version_d)
+ .gnu.version_d
+                0x0000000008048890        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.gnu.version_r  0x0000000008048890       0x60
+ *(.gnu.version_r)
+ .gnu.version_r
+                0x0000000008048890       0x60 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.rel.dyn        0x00000000080488f0       0x20
+ *(.rel.init)
+ *(.rel.text .rel.text.* .rel.gnu.linkonce.t.*)
+ .rel.text      0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_input
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_log_output
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.daemonize
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.filter_daemonize_argv
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.usage_exit
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.startup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.mutex_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.mutex_lock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_ticks_from_usec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_tsleep32
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_usleep
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.AND_Inputs
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.AND_Process
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.AND_Output
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.main
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.board_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.list_remove_head
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._mutex_lock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.mutex_unlock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.mutex_unlock_and_sleep
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.bitarithm_lsb
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.clist_rpush
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.clist_lpop
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.sched_run
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.sched_set_status
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.sched_switch
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.sched_task_exit
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.main_trampoline
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.idle_thread
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.kernel_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._assert_failure
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.clist_lpoprpush
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.cib_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.pid_is_valid
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_get
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_getstatus
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_getname
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_sleep
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_wakeup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_yield
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_add_to_list
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_measure_stack_free
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_create
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.panic_arch
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.core_panic
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_usec_from_ticks64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_now64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_now_usec64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_usec_from_ticks64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_syscall_enter
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_syscall_leave
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.malloc
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.free
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.calloc
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.realloc
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_read
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_write
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_writev
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.putchar
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.puts
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.make_message
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.printf
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.vprintf
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fprintf
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.vfprintf
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.vwarn
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.vwarnx
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.warn
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.warnx
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.getpid
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._gettimeofday
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_init_syscalls
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_isr_stack_pointer
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_isr_stack_start
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_thread_sigmask
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_sigmasks
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_print_signals
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.irq_disable
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.irq_enable
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.irq_restore
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.irq_is_in
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_popsig
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_irq_handler
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.isr_set_sigmask
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_isr_entry
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.set_signal_handler
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.register_interrupt
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.unregister_interrupt
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_shutdown
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_interrupt_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_mod_ctx_leave_sigh
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_print_stack
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_isr_stack_usage
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_stack_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.isr_cpu_switch_context_exit
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.cpu_switch_context_exit
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.isr_thread_yield
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_yield_higher
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_cpu_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_LED_GREEN_OFF
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_LED_GREEN_ON
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_LED_GREEN_TOGGLE
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_LED_RED_OFF
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_LED_RED_ON
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._native_LED_RED_TOGGLE
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.tty_uart_setup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.io_signal_handler
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.uart_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.uart_write
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.uart_poweron
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.uart_poweroff
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.pm_set_lowest
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.pm_reboot
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.ps   0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_lltimer_now
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_lltimer_mask
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_now
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_spin
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._is_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_spin_until
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_now_internal
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_now64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_set64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._periph_timer_callback
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._shoot
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._lltimer_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_set_absolute
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._add_timer_to_list
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._add_timer_to_long_list
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._remove_timer_from_list
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._remove
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_remove
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._time_left
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._this_high_period
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._compare
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._merge_lists
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._select_long_timers
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._next_period
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._timer_callback
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.list_remove
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.div_u64_by_15625
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.div_u64_by_1000000
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._callback_unlock_mutex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_tsleep
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_periodic_wakeup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._callback_msg
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._setup_msg
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_set_msg
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_set_msg64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._callback_wakeup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_set_wakeup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_set_wakeup64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_now_timex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._setup_timer_msg
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._msg_wait
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_msg_receive_timeout64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._xtimer_msg_receive_timeout
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._mutex_timeout
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.xtimer_mutex_lock_timeout
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.periph_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.auto_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.auto_init_netdev_tap
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.cib_avail
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.cib_get
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.cib_put
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.queue_msg
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_send
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_try_send
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._msg_send
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_send_to_self
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_send_int
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_send_receive
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_reply
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_reply_int
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_try_receive
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_receive
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._msg_receive
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_avail
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_init_queue
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.msg_queue_print
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._async_io_isr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_async_read_setup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_async_read_cleanup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_async_read_continue
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_async_read_add_handler
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._div_mulhi64
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.byteorder_swaps
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.byteorder_htons
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.byteorder_ntohs
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.thread_getpid
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_nettype_from_ethertype
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_nettype_to_ethertype
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_release
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_hdr_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_hdr_get_src_addr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_hdr_set_src_addr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_hdr_get_dst_addr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_hdr_set_dst_addr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_ethernet_create
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._addr_set_broadcast
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._addr_set_multicast
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._send
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._recv
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netapi_dispatch_receive
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rmutex_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_create
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_numof
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_iter
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_get_from_netdev
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_set_from_netdev
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_get_by_pid
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._half_byte_to_char
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_addr_to_str
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._dehex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_addr_from_str
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_acquire
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_release
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_is_6ln
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._update_l2addr_from_dev
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._init_from_device
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._pass_on_packet
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._event_cb
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pkt_count
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_get_iovec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_remove_snip
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_replace_snip
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pkt_len_upto
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._pktbuf_contains
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._align
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._set_pktsnip
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_add
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_mark
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_realloc_data
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_hold
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._release_error_locked
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_release_error
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_start_write
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._print_chunk
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._print_unused
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_stats
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._create_snip
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._pktbuf_alloc
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._too_small_hole
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._merge
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._pktbuf_free
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktbuf_duplicate_upto
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._dump_snip
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._dump
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktdump_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._get_mac_addr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._set_mac_addr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._get_promiscous
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._set_promiscous
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._isr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._get
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._is_addr_broadcast
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._is_addr_multicast
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._continue_reading
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.netdev_tap_setup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._tap_isr
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.od_hex_dump
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_poweron
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_poweroff
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_set_time
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_get_time
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_set_alarm
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_get_alarm
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rtc_clear_alarm
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.ts2ticks
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.native_isr_timer
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.timer_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.do_timer_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.timer_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.timer_set_absolute
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.timer_clear
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.timer_start
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.timer_stop
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.timer_read
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.mutex_trylock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._lock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rmutex_lock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rmutex_trylock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.rmutex_unlock
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._is_digit
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_byte_hex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_bytes_hex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_strlen
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_str
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_bytes_hex_reverse
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._byte_mod25
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._hex_nib
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_hex_bytes
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_u32_hex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_u64_hex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_u64_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_u32_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_u16_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_s64_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_s32_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_s16_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_s16_dfp
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_s32_dfp
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_float
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.fmt_lpad
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.scn_u32_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_u32_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_s32_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_byte_hex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_u32_hex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_u64_hex
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_u64_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_s64_dec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_float
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.print_str
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._get_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._snd_rcv
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netapi_dispatch
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netapi_send
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netapi_receive
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netapi_get
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netapi_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netif_hdr_print
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netreg_init
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netreg_register
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netreg_unregister
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._netreg_lookup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netreg_lookup
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netreg_num
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netreg_getnext
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_netreg_calc_csum
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.gnrc_pktsnip_search_type
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.iolist_count
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.iolist_size
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.iolist_to_iovec
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.ethernet_get_iid
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text._get_iid
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.netdev_eth_get
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ .rel.text.netdev_eth_set
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ *(.rel.fini)
+ *(.rel.rodata .rel.rodata.* .rel.gnu.linkonce.r.*)
+ .rel.rodata.ethernet_ops
+                0x00000000080488f0        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ *(.rel.data.rel.ro .rel.data.rel.ro.* .rel.gnu.linkonce.d.rel.ro.*)
+ *(.rel.data .rel.data.* .rel.gnu.linkonce.d.*)
+ *(.rel.tdata .rel.tdata.* .rel.gnu.linkonce.td.*)
+ *(.rel.tbss .rel.tbss.* .rel.gnu.linkonce.tb.*)
+ *(.rel.ctors)
+ *(.rel.dtors)
+ *(.rel.got)
+ .rel.got       0x00000000080488f0        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ *(.rel.bss .rel.bss.* .rel.gnu.linkonce.b.*)
+ .rel.bss       0x00000000080488f8       0x18 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ *(.rel.ifunc)
+
+.rel.plt        0x0000000008048910       0xe8
+ *(.rel.plt)
+ .rel.plt       0x0000000008048910       0xe8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_start, .)
+ *(.rel.iplt)
+ .rel.iplt      0x00000000080489f8        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                [!provide]                        PROVIDE (__rel_iplt_end, .)
+
+.init           0x00000000080489f8       0x23
+ *(SORT(.init))
+ .init          0x00000000080489f8       0x1e /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+                0x00000000080489f8                _init
+ .init          0x0000000008048a16        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+
+.plt            0x0000000008048a20      0x1e0
+ *(.plt)
+ .plt           0x0000000008048a20      0x1e0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                0x0000000008048a30                strcmp@@GLIBC_2.0
+                0x0000000008048a40                sigprocmask@@GLIBC_2.0
+                0x0000000008048a50                memcpy@@GLIBC_2.0
+                0x0000000008048a60                setcontext@@GLIBC_2.0
+                0x0000000008048a70                memcmp@@GLIBC_2.0
+                0x0000000008048a80                __stack_chk_fail@@GLIBC_2.4
+                0x0000000008048a90                strerror@@GLIBC_2.0
+                0x0000000008048aa0                getopt_long@@GLIBC_2.0
+                0x0000000008048ab0                strlen@@GLIBC_2.0
+                0x0000000008048ac0                __libc_start_main@@GLIBC_2.0
+                0x0000000008048ad0                write@@GLIBC_2.0
+                0x0000000008048ae0                sigdelset@@GLIBC_2.0
+                0x0000000008048af0                atol@@GLIBC_2.0
+                0x0000000008048b00                getcontext@@GLIBC_2.1
+                0x0000000008048b10                sigaddset@@GLIBC_2.0
+                0x0000000008048b20                dlsym@@GLIBC_2.0
+                0x0000000008048b30                sigfillset@@GLIBC_2.0
+                0x0000000008048b40                memset@@GLIBC_2.0
+                0x0000000008048b50                snprintf@@GLIBC_2.0
+                0x0000000008048b60                swapcontext@@GLIBC_2.1
+                0x0000000008048b70                __errno_location@@GLIBC_2.0
+                0x0000000008048b80                strncpy@@GLIBC_2.0
+                0x0000000008048b90                fileno@@GLIBC_2.0
+                0x0000000008048ba0                makecontext@@GLIBC_2.1
+                0x0000000008048bb0                strndup@@GLIBC_2.0
+                0x0000000008048bc0                sigemptyset@@GLIBC_2.0
+                0x0000000008048bd0                vsnprintf@@GLIBC_2.0
+                0x0000000008048be0                sigaction@@GLIBC_2.0
+                0x0000000008048bf0                sigaltstack@@GLIBC_2.0
+ *(.iplt)
+ .iplt          0x0000000008048c00        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.plt.got        0x0000000008048c00        0x8
+ *(.plt.got)
+ .plt.got       0x0000000008048c00        0x8 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.text           0x0000000008048c10     0x9092
+ *(.text.unlikely .text.*_unlikely .text.unlikely.*)
+ *(.text.exit .text.exit.*)
+ *(.text.startup .text.startup.*)
+ .text.startup  0x0000000008048c10      0x350 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ *(.text.hot .text.hot.*)
+ *(.text .stub .text.* .gnu.linkonce.t.*)
+ .text          0x0000000008048f60       0x22 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                0x0000000008048f60                _start
+ *fill*         0x0000000008048f82        0xe 
+ .gnu.linkonce.t.__x86.get_pc_thunk.bx
+                0x0000000008048f90        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+                0x0000000008048f90                __x86.get_pc_thunk.bx
+ *fill*         0x0000000008048f94        0xc 
+ .text          0x0000000008048fa0       0xbb /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ .text._native_input
+                0x000000000804905b       0x81 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x000000000804905b                _native_input
+ .text._native_log_output
+                0x00000000080490dc      0x135 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x00000000080490dc                _native_log_output
+ .text.daemonize
+                0x0000000008049211       0xd4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008049211                daemonize
+ .text.filter_daemonize_argv
+                0x00000000080492e5       0xa0 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .text.usage_exit
+                0x0000000008049385       0xa6 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008049385                usage_exit
+ .text.mutex_init
+                0x000000000804942b       0x34 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .text.mutex_lock
+                0x000000000804945f       0x3b /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .text._xtimer_ticks_from_usec
+                0x000000000804949a       0x2d /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .text._xtimer_tsleep32
+                0x00000000080494c7       0x3b /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .text.xtimer_usleep
+                0x0000000008049502       0x45 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .text.AND_Inputs
+                0x0000000008049547       0x5d /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x0000000008049547                AND_Inputs
+ .text.AND_Process
+                0x00000000080495a4       0x5b /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x00000000080495a4                AND_Process
+ .text.AND_Output
+                0x00000000080495ff       0x5f /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x00000000080495ff                AND_Output
+ .text.main     0x000000000804965e       0xb0 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x000000000804965e                main
+ .text.board_init
+                0x000000000804970e       0x3f /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+                0x000000000804970e                board_init
+ .text.list_remove_head
+                0x000000000804974d       0x45 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+ .text._mutex_lock
+                0x0000000008049792       0xde /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+                0x0000000008049792                _mutex_lock
+ .text.mutex_unlock
+                0x0000000008049870       0xe0 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+                0x0000000008049870                mutex_unlock
+ .text.bitarithm_lsb
+                0x0000000008049950       0x47 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .text.clist_rpush
+                0x0000000008049997       0x62 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .text.clist_lpop
+                0x00000000080499f9       0x68 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .text.sched_run
+                0x0000000008049a61       0xaa /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008049a61                sched_run
+ .text.sched_set_status
+                0x0000000008049b0b       0xfe /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008049b0b                sched_set_status
+ .text.sched_switch
+                0x0000000008049c09       0x7f /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008049c09                sched_switch
+ .text.sched_task_exit
+                0x0000000008049c88       0x58 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008049c88                sched_task_exit
+ .text.main_trampoline
+                0x0000000008049ce0       0x49 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .text.idle_thread
+                0x0000000008049d29       0x1e /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .text.kernel_init
+                0x0000000008049d47       0x67 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+                0x0000000008049d47                kernel_init
+ .text._assert_failure
+                0x0000000008049dae       0x42 /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+                0x0000000008049dae                _assert_failure
+ .text.cib_init
+                0x0000000008049df0       0x78 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .text.thread_add_to_list
+                0x0000000008049e68       0xab /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+                0x0000000008049e68                thread_add_to_list
+ .text.thread_measure_stack_free
+                0x0000000008049f13       0x52 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+                0x0000000008049f13                thread_measure_stack_free
+ .text.thread_create
+                0x0000000008049f65      0x263 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+                0x0000000008049f65                thread_create
+ .text.panic_arch
+                0x000000000804a1c8       0x25 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+                0x000000000804a1c8                panic_arch
+ .text.core_panic
+                0x000000000804a1ed       0x8e /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+                0x000000000804a1ed                core_panic
+ .text._native_syscall_enter
+                0x000000000804a27b       0x32 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a27b                _native_syscall_enter
+ .text._native_syscall_leave
+                0x000000000804a2ad       0xef /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a2ad                _native_syscall_leave
+ .text.malloc   0x000000000804a39c       0x94 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a39c                malloc
+ .text.free     0x000000000804a430       0x45 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a430                free
+ .text.calloc   0x000000000804a475       0x9d /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a475                calloc
+ .text.realloc  0x000000000804a512       0x53 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a512                realloc
+ .text._native_write
+                0x000000000804a565       0x5c /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a565                _native_write
+ .text._native_writev
+                0x000000000804a5c1       0x5c /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a5c1                _native_writev
+ .text.putchar  0x000000000804a61d       0x42 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a61d                putchar
+ .text.puts     0x000000000804a65f       0x5c /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a65f                puts
+ .text.make_message
+                0x000000000804a6bb       0xc9 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a6bb                make_message
+ .text.printf   0x000000000804a784       0x4e /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a784                printf
+ .text.vprintf  0x000000000804a7d2       0x47 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a7d2                vprintf
+ .text.fprintf  0x000000000804a819       0x51 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a819                fprintf
+ .text.vfprintf
+                0x000000000804a86a       0xa5 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a86a                vfprintf
+ .text.vwarn    0x000000000804a90f      0x130 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804a90f                vwarn
+ .text.vwarnx   0x000000000804aa3f       0xe7 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804aa3f                vwarnx
+ .text.verr     0x000000000804ab26       0x41 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804ab26                verr
+ .text.verrx    0x000000000804ab67       0x41 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804ab67                verrx
+ .text.warn     0x000000000804aba8       0x43 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804aba8                warn
+ .text.warnx    0x000000000804abeb       0x43 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804abeb                warnx
+ .text.err      0x000000000804ac2e       0x35 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804ac2e                err
+ .text.errx     0x000000000804ac63       0x35 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804ac63                errx
+ .text.getpid   0x000000000804ac98       0x39 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804ac98                getpid
+ .text._native_init_syscalls
+                0x000000000804acd1      0x50b /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000804acd1                _native_init_syscalls
+ .text.thread_isr_stack_pointer
+                0x000000000804b1dc       0x29 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b1dc                thread_isr_stack_pointer
+ .text.thread_isr_stack_start
+                0x000000000804b205       0x29 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b205                thread_isr_stack_start
+ .text.irq_disable
+                0x000000000804b22e       0x70 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b22e                irq_disable
+ .text.irq_enable
+                0x000000000804b29e       0x8b /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b29e                irq_enable
+ .text.irq_restore
+                0x000000000804b329       0x3d /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b329                irq_restore
+ .text.irq_is_in
+                0x000000000804b366       0x29 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b366                irq_is_in
+ .text._native_popsig
+                0x000000000804b38f       0x8c /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b38f                _native_popsig
+ .text.native_irq_handler
+                0x000000000804b41b       0x7c /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b41b                native_irq_handler
+ .text.isr_set_sigmask
+                0x000000000804b497       0x56 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b497                isr_set_sigmask
+ .text.native_isr_entry
+                0x000000000804b4ed      0x155 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b4ed                native_isr_entry
+ .text.set_signal_handler
+                0x000000000804b642      0x149 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b642                set_signal_handler
+ .text.register_interrupt
+                0x000000000804b78b       0x68 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b78b                register_interrupt
+ .text.native_shutdown
+                0x000000000804b7f3       0x3c /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .text.native_interrupt_init
+                0x000000000804b82f      0x2be /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000804b82f                native_interrupt_init
+ .text._native_mod_ctx_leave_sigh
+                0x000000000804baed       0x41 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .text.thread_isr_stack_usage
+                0x000000000804bb2e       0x29 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x000000000804bb2e                thread_isr_stack_usage
+ .text.thread_stack_init
+                0x000000000804bb57       0xe2 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x000000000804bb57                thread_stack_init
+ .text.isr_cpu_switch_context_exit
+                0x000000000804bc39       0x7c /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x000000000804bc39                isr_cpu_switch_context_exit
+ .text.cpu_switch_context_exit
+                0x000000000804bcb5       0xa5 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x000000000804bcb5                cpu_switch_context_exit
+ .text.isr_thread_yield
+                0x000000000804bd5a       0x7c /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x000000000804bd5a                isr_thread_yield
+ .text.thread_yield_higher
+                0x000000000804bdd6       0xd1 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x000000000804bdd6                thread_yield_higher
+ .text.native_cpu_init
+                0x000000000804bea7       0x7e /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x000000000804bea7                native_cpu_init
+ .text          0x000000000804bf25       0x3f /home/waqar/RIOT/examples/test/bin/native/cpu.a(tramp.o)
+                0x000000000804bf25                _native_sig_leave_tramp
+                0x000000000804bf53                _native_sig_leave_handler
+ .text._native_LED_GREEN_ON
+                0x000000000804bf64       0x35 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+                0x000000000804bf64                _native_LED_GREEN_ON
+ .text._native_LED_RED_OFF
+                0x000000000804bf99       0x35 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+                0x000000000804bf99                _native_LED_RED_OFF
+ .text.tty_uart_setup
+                0x000000000804bfce       0x50 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+                0x000000000804bfce                tty_uart_setup
+ .text.pm_set_lowest
+                0x000000000804c01e       0x61 /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+                0x000000000804c01e                pm_set_lowest
+ .text.pm_off   0x000000000804c07f       0x2d /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+                0x000000000804c07f                pm_off
+ .text.ps       0x000000000804c0ac      0x1af /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+                0x000000000804c0ac                ps
+ .text._xtimer_lltimer_now
+                0x000000000804c25b       0x31 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._xtimer_lltimer_mask
+                0x000000000804c28c       0x2d /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._xtimer_now
+                0x000000000804c2b9       0x29 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._xtimer_spin
+                0x000000000804c2e2       0x41 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._is_set  0x000000000804c323       0x4a /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text.xtimer_spin_until
+                0x000000000804c36d       0x41 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text.xtimer_init
+                0x000000000804c3ae       0x48 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+                0x000000000804c3ae                xtimer_init
+ .text._xtimer_now_internal
+                0x000000000804c3f6       0x61 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._xtimer_set64
+                0x000000000804c457       0xf2 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+                0x000000000804c457                _xtimer_set64
+ .text._xtimer_set
+                0x000000000804c549       0x92 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+                0x000000000804c549                _xtimer_set
+ .text._periph_timer_callback
+                0x000000000804c5db       0x36 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._shoot   0x000000000804c611       0x40 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._lltimer_set
+                0x000000000804c651       0x54 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._xtimer_set_absolute
+                0x000000000804c6a5      0x17b /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+                0x000000000804c6a5                _xtimer_set_absolute
+ .text._add_timer_to_list
+                0x000000000804c820       0x68 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._add_timer_to_long_list
+                0x000000000804c888       0x8c /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._remove_timer_from_list
+                0x000000000804c914       0x63 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._remove  0x000000000804c977       0xb9 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text.xtimer_remove
+                0x000000000804ca30       0x62 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+                0x000000000804ca30                xtimer_remove
+ .text._time_left
+                0x000000000804ca92       0x5c /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._this_high_period
+                0x000000000804caee       0x2f /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._compare
+                0x000000000804cb1d       0x65 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._merge_lists
+                0x000000000804cb82       0x9f /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._select_long_timers
+                0x000000000804cc21       0xc3 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._next_period
+                0x000000000804cce4       0x4b /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text._timer_callback
+                0x000000000804cd2f      0x1c4 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .text.mutex_lock
+                0x000000000804cef3       0x3b /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_lltimer_now
+                0x000000000804cf2e       0x31 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_spin
+                0x000000000804cf5f       0x41 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._callback_unlock_mutex
+                0x000000000804cfa0       0x3f /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .text._xtimer_tsleep
+                0x000000000804cfdf       0xb2 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+                0x000000000804cfdf                _xtimer_tsleep
+ .text.periph_init
+                0x000000000804d091       0x2a /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+                0x000000000804d091                periph_init
+ .text.auto_init
+                0x000000000804d0bb       0x39 /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+                0x000000000804d0bb                auto_init
+ .text.auto_init_netdev_tap
+                0x000000000804d0f4       0x9e /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+                0x000000000804d0f4                auto_init_netdev_tap
+ .text.pid_is_valid
+                0x000000000804d192       0x45 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.list_remove_head
+                0x000000000804d1d7       0x45 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.cib_init
+                0x000000000804d21c       0x78 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.cib_avail
+                0x000000000804d294       0x39 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.cib_get  0x000000000804d2cd       0x58 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.cib_put  0x000000000804d325       0x68 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.queue_msg
+                0x000000000804d38d       0x78 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_send
+                0x000000000804d405       0x86 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                0x000000000804d405                msg_send
+ .text.msg_try_send
+                0x000000000804d48b       0x86 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                0x000000000804d48b                msg_try_send
+ .text._msg_send
+                0x000000000804d511      0x19e /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_send_to_self
+                0x000000000804d6af       0x67 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                0x000000000804d6af                msg_send_to_self
+ .text.msg_send_int
+                0x000000000804d716       0xba /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                0x000000000804d716                msg_send_int
+ .text.msg_reply
+                0x000000000804d7d0       0xdb /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                0x000000000804d7d0                msg_reply
+ .text.msg_receive
+                0x000000000804d8ab       0x3a /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                0x000000000804d8ab                msg_receive
+ .text._msg_receive
+                0x000000000804d8e5      0x1dd /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .text.msg_init_queue
+                0x000000000804dac2       0x58 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                0x000000000804dac2                msg_init_queue
+ .text._async_io_isr
+                0x000000000804db1a      0x1e9 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .text.native_async_read_setup
+                0x000000000804dd03       0x37 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+                0x000000000804dd03                native_async_read_setup
+ .text.native_async_read_continue
+                0x000000000804dd3a       0x2b /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+                0x000000000804dd3a                native_async_read_continue
+ .text.native_async_read_add_handler
+                0x000000000804dd65       0xe2 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+                0x000000000804dd65                native_async_read_add_handler
+ .text.byteorder_swaps
+                0x000000000804de47       0x33 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.byteorder_htons
+                0x000000000804de7a       0x54 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.byteorder_ntohs
+                0x000000000804dece       0x3f /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.thread_getpid
+                0x000000000804df0d       0x2b /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_nettype_from_ethertype
+                0x000000000804df38       0x30 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_nettype_to_ethertype
+                0x000000000804df68       0x2f /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_pktbuf_release
+                0x000000000804df97       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_init
+                0x000000000804dfd2       0x6a /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_get_src_addr
+                0x000000000804e03c       0x30 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_set_src_addr
+                0x000000000804e06c       0x5e /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_get_dst_addr
+                0x000000000804e0ca       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_hdr_set_dst_addr
+                0x000000000804e105       0x6a /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netif_ethernet_create
+                0x000000000804e16f       0x63 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+                0x000000000804e16f                gnrc_netif_ethernet_create
+ .text._addr_set_broadcast
+                0x000000000804e1d2       0x40 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text._addr_set_multicast
+                0x000000000804e212       0x40 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text._send    0x000000000804e252      0x1d0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text._recv    0x000000000804e422      0x210 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .text.gnrc_netapi_dispatch_receive
+                0x000000000804e632       0x4c /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.rmutex_init
+                0x000000000804e67e       0x4c /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_pktbuf_release
+                0x000000000804e6ca       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_create
+                0x000000000804e705      0x139 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x000000000804e705                gnrc_netif_create
+ .text.gnrc_netif_get_from_netdev
+                0x000000000804e83e       0xdc /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x000000000804e83e                gnrc_netif_get_from_netdev
+ .text.gnrc_netif_set_from_netdev
+                0x000000000804e91a       0xfb /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x000000000804e91a                gnrc_netif_set_from_netdev
+ .text._half_byte_to_char
+                0x000000000804ea15       0x40 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_netif_addr_to_str
+                0x000000000804ea55       0xf0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x000000000804ea55                gnrc_netif_addr_to_str
+ .text.gnrc_netif_acquire
+                0x000000000804eb45       0x4c /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x000000000804eb45                gnrc_netif_acquire
+ .text.gnrc_netif_release
+                0x000000000804eb91       0x4c /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                0x000000000804eb91                gnrc_netif_release
+ .text._update_l2addr_from_dev
+                0x000000000804ebdd       0x83 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._init_from_device
+                0x000000000804ec60       0x93 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._gnrc_netif_thread
+                0x000000000804ecf3      0x1e6 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._pass_on_packet
+                0x000000000804eed9       0x57 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text._event_cb
+                0x000000000804ef30       0xbd /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .text.gnrc_pktbuf_release
+                0x000000000804efed       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .text.gnrc_pktbuf_remove_snip
+                0x000000000804f028       0x92 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+                0x000000000804f028                gnrc_pktbuf_remove_snip
+ .text.mutex_lock
+                0x000000000804f0ba       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._pktbuf_contains
+                0x000000000804f0f5       0x3c /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._align   0x000000000804f131       0x33 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._set_pktsnip
+                0x000000000804f164       0x70 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_init
+                0x000000000804f1d4       0x66 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x000000000804f1d4                gnrc_pktbuf_init
+ .text.gnrc_pktbuf_add
+                0x000000000804f23a       0x86 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x000000000804f23a                gnrc_pktbuf_add
+ .text.gnrc_pktbuf_mark
+                0x000000000804f2c0      0x278 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x000000000804f2c0                gnrc_pktbuf_mark
+ .text.gnrc_pktbuf_realloc_data
+                0x000000000804f538      0x224 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x000000000804f538                gnrc_pktbuf_realloc_data
+ .text.gnrc_pktbuf_hold
+                0x000000000804f75c       0x72 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x000000000804f75c                gnrc_pktbuf_hold
+ .text._release_error_locked
+                0x000000000804f7ce       0xe0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_release_error
+                0x000000000804f8ae       0x62 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                0x000000000804f8ae                gnrc_pktbuf_release_error
+ .text._create_snip
+                0x000000000804f910       0xcb /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._pktbuf_alloc
+                0x000000000804f9db      0x151 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._too_small_hole
+                0x000000000804fb2c       0x48 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._merge   0x000000000804fb74       0x6d /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text._pktbuf_free
+                0x000000000804fbe1      0x16b /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .text.gnrc_pktbuf_release
+                0x000000000804fd4c       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text._dump_snip
+                0x000000000804fd87       0xcc /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text._dump    0x000000000804fe53       0xad /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text._eventloop
+                0x000000000804ff00       0xd8 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .text.gnrc_pktdump_init
+                0x000000000804ffd8       0x62 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                0x000000000804ffd8                gnrc_pktdump_init
+ .text._get_mac_addr
+                0x000000000805003a       0x4e /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._set_mac_addr
+                0x0000000008050088       0x4e /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._get_promiscous
+                0x00000000080500d6       0x3a /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._set_promiscous
+                0x0000000008050110       0x44 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._isr     0x0000000008050154       0x5a /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._get     0x00000000080501ae       0xb7 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._set     0x0000000008050265       0xc0 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._is_addr_broadcast
+                0x0000000008050325       0x84 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._is_addr_multicast
+                0x00000000080503a9       0x3b /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._continue_reading
+                0x00000000080503e4      0x158 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._recv    0x000000000805053c      0x177 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._send    0x00000000080506b3       0xdd /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text.netdev_tap_setup
+                0x0000000008050790       0x56 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+                0x0000000008050790                netdev_tap_setup
+ .text._tap_isr
+                0x00000000080507e6       0x66 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text._init    0x000000000805084c      0x208 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .text.od_hex_dump
+                0x0000000008050a54       0xe0 /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+                0x0000000008050a54                od_hex_dump
+ .text.rtc_init
+                0x0000000008050b34       0x6c /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+                0x0000000008050b34                rtc_init
+ .text.rtc_poweron
+                0x0000000008050ba0       0x49 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+                0x0000000008050ba0                rtc_poweron
+ .text.ts2ticks
+                0x0000000008050be9       0x57 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .text.native_isr_timer
+                0x0000000008050c40       0x3b /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+                0x0000000008050c40                native_isr_timer
+ .text.timer_init
+                0x0000000008050c7b       0x9c /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+                0x0000000008050c7b                timer_init
+ .text.do_timer_set
+                0x0000000008050d17       0xbd /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .text.timer_set
+                0x0000000008050dd4       0x63 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+                0x0000000008050dd4                timer_set
+ .text.timer_set_absolute
+                0x0000000008050e37       0x5f /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+                0x0000000008050e37                timer_set_absolute
+ .text.timer_read
+                0x0000000008050e96       0x82 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+                0x0000000008050e96                timer_read
+ .text.mutex_trylock
+                0x0000000008050f18       0x3a /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .text.mutex_lock
+                0x0000000008050f52       0x3b /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .text.thread_getpid
+                0x0000000008050f8d       0x2b /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .text._lock    0x0000000008050fb8       0xba /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .text.rmutex_lock
+                0x0000000008051072       0x3b /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+                0x0000000008051072                rmutex_lock
+ .text.rmutex_unlock
+                0x00000000080510ad       0xc8 /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+                0x00000000080510ad                rmutex_unlock
+ .text.fmt_byte_hex
+                0x0000000008051175       0x6a /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x0000000008051175                fmt_byte_hex
+ .text.fmt_strlen
+                0x00000000080511df       0x4a /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x00000000080511df                fmt_strlen
+ .text.fmt_bytes_hex_reverse
+                0x0000000008051229       0x70 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x0000000008051229                fmt_bytes_hex_reverse
+ .text.fmt_u32_hex
+                0x0000000008051299       0x44 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x0000000008051299                fmt_u32_hex
+ .text.print    0x00000000080512dd       0x64 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x00000000080512dd                print
+ .text.print_byte_hex
+                0x0000000008051341       0x50 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x0000000008051341                print_byte_hex
+ .text.print_u32_hex
+                0x0000000008051391       0x4e /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x0000000008051391                print_u32_hex
+ .text.print_str
+                0x00000000080513df       0x48 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                0x00000000080513df                print_str
+ .text.gnrc_pktbuf_release
+                0x0000000008051427       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text._snd_rcv
+                0x0000000008051462       0x60 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .text.gnrc_netapi_dispatch
+                0x00000000080514c2       0xca /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+                0x00000000080514c2                gnrc_netapi_dispatch
+ .text.gnrc_netif_hdr_get_src_addr
+                0x000000000805158c       0x30 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text.gnrc_netif_hdr_get_dst_addr
+                0x00000000080515bc       0x3b /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .text.gnrc_netif_hdr_print
+                0x00000000080515f7      0x1a5 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+                0x00000000080515f7                gnrc_netif_hdr_print
+ .text._netreg_lookup
+                0x000000000805179c       0x90 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .text.gnrc_netreg_lookup
+                0x000000000805182c       0x43 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                0x000000000805182c                gnrc_netreg_lookup
+ .text.gnrc_netreg_num
+                0x000000000805186f       0x64 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                0x000000000805186f                gnrc_netreg_num
+ .text.gnrc_netreg_getnext
+                0x00000000080518d3       0x4e /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                0x00000000080518d3                gnrc_netreg_getnext
+ .text.iolist_count
+                0x0000000008051921       0x48 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+                0x0000000008051921                iolist_count
+ .text.iolist_to_iovec
+                0x0000000008051969       0x87 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+                0x0000000008051969                iolist_to_iovec
+ .text.ethernet_get_iid
+                0x00000000080519f0       0x90 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .text._get_iid
+                0x0000000008051a80       0x72 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .text.netdev_eth_get
+                0x0000000008051af2       0xf4 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+                0x0000000008051af2                netdev_eth_get
+ .text.netdev_eth_set
+                0x0000000008051be6       0x4e /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+                0x0000000008051be6                netdev_eth_set
+ *fill*         0x0000000008051c34        0xc 
+ .text          0x0000000008051c40       0x62 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                0x0000000008051c40                __libc_csu_init
+                0x0000000008051ca0                __libc_csu_fini
+ *(.gnu.warning)
+
+.fini           0x0000000008051ca4       0x14
+ *(SORT(.fini))
+ .fini          0x0000000008051ca4        0xf /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crti.o
+                0x0000000008051ca4                _fini
+ .fini          0x0000000008051cb3        0x5 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crtn.o
+                [!provide]                        PROVIDE (__etext, .)
+                [!provide]                        PROVIDE (_etext, .)
+                [!provide]                        PROVIDE (etext, .)
+
+.rodata         0x0000000008051cc0     0x17d8
+ *(.rodata .rodata.* .gnu.linkonce.r.*)
+ .rodata.cst4   0x0000000008051cc0        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                0x0000000008051cc0                _IO_stdin_used
+ .rodata.short_opts
+                0x0000000008051cc4        0xd /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ *fill*         0x0000000008051cd1        0x3 
+ .rodata        0x0000000008051cd4      0x4df /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ *fill*         0x00000000080521b3        0xd 
+ .rodata.long_opts
+                0x00000000080521c0       0x90 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .rodata        0x0000000008052250        0xd /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ *fill*         0x000000000805225d        0x3 
+ .rodata        0x0000000008052260       0x1f /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+ *fill*         0x000000000805227f        0x1 
+ .rodata        0x0000000008052280       0x58 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .rodata        0x00000000080522d8        0xa /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+ .rodata        0x00000000080522e2        0xe /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .rodata.assert_crash_message
+                0x00000000080522f0       0x12 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+                0x00000000080522f0                assert_crash_message
+ .rodata        0x0000000008052302       0x2d /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+ *fill*         0x000000000805232f        0x1 
+ .rodata        0x0000000008052330      0x1b2 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ *fill*         0x00000000080524e2        0x2 
+ .rodata        0x00000000080524e4      0x3bc /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .rodata        0x00000000080528a0      0x1a5 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .rodata        0x0000000008052a45       0x52 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ *fill*         0x0000000008052a97        0x1 
+ .rodata        0x0000000008052a98       0x5e /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+ *fill*         0x0000000008052af6        0x2 
+ .rodata        0x0000000008052af8      0x15b /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+ .rodata        0x0000000008052c53       0x14 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .rodata        0x0000000008052c67       0x10 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ *fill*         0x0000000008052c77        0x1 
+ .rodata        0x0000000008052c78       0x7a /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ *fill*         0x0000000008052cf2        0x2 
+ .rodata        0x0000000008052cf4       0x98 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .rodata.ethernet_ops
+                0x0000000008052d8c       0x18 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .rodata        0x0000000008052da4       0x45 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ *fill*         0x0000000008052de9        0x3 
+ .rodata        0x0000000008052dec       0xf4 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .rodata        0x0000000008052ee0       0xf3 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ *fill*         0x0000000008052fd3        0x1 
+ .rodata        0x0000000008052fd4      0x129 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .rodata        0x00000000080530fd        0xc /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+ *fill*         0x0000000008053109        0x3 
+ .rodata        0x000000000805310c      0x204 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .rodata        0x0000000008053310       0x2f /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .rodata        0x000000000805333f        0xe /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ *fill*         0x000000000805334d        0x3 
+ .rodata._hex_chars
+                0x0000000008053350       0x10 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .rodata        0x0000000008053360       0x88 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .rodata        0x00000000080533e8       0x20 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .rodata.netdev_eth_get
+                0x0000000008053408       0x90 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+
+.rodata1
+ *(.rodata1)
+
+.eh_frame_hdr   0x0000000008053498      0x80c
+ *(.eh_frame_hdr)
+ .eh_frame_hdr  0x0000000008053498      0x80c /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008053498                __GNU_EH_FRAME_HDR
+ *(.eh_frame_entry .eh_frame_entry.*)
+
+.eh_frame       0x0000000008053ca4     0x2094
+ *(.eh_frame)
+ .eh_frame      0x0000000008053ca4       0x3c /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                                         0x40 (size before relaxing)
+ .eh_frame      0x0000000008053ce0       0xbc /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                                         0xd4 (size before relaxing)
+ .eh_frame      0x0000000008053d9c      0x120 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                                        0x138 (size before relaxing)
+ .eh_frame      0x0000000008053ebc       0x20 /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000008053edc       0x60 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000008053f3c       0xdc /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                                         0xf4 (size before relaxing)
+ .eh_frame      0x0000000008054018       0x58 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+                                         0x70 (size before relaxing)
+ .eh_frame      0x0000000008054070       0x1c /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+                                         0x34 (size before relaxing)
+ .eh_frame      0x000000000805408c       0x80 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+                                        0x198 (size before relaxing)
+ .eh_frame      0x000000000805410c       0x3c /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+                                         0x54 (size before relaxing)
+ .eh_frame      0x0000000008054148      0x320 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                                        0x3f8 (size before relaxing)
+ .eh_frame      0x0000000008054468      0x1dc /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                                        0x27c (size before relaxing)
+ .eh_frame      0x0000000008054644       0xf8 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                                        0x130 (size before relaxing)
+ .eh_frame      0x000000000805473c       0x40 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000805477c       0x20 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+                                         0xd8 (size before relaxing)
+ .eh_frame      0x000000000805479c       0x3c /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+                                         0x70 (size before relaxing)
+ .eh_frame      0x00000000080547d8       0x30 /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000008054808      0x344 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+                                        0x380 (size before relaxing)
+ .eh_frame      0x0000000008054b4c       0xa0 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+                                        0x378 (size before relaxing)
+ .eh_frame      0x0000000008054bec       0x20 /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000008054c0c       0x20 /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000008054c2c       0x20 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000008054c4c      0x204 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+                                        0x2c0 (size before relaxing)
+ .eh_frame      0x0000000008054e50       0x90 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+                                         0xc8 (size before relaxing)
+ .eh_frame      0x0000000008054ee0        0x0 /home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+                                         0x48 (size before relaxing)
+ .eh_frame      0x0000000008054ee0      0x228 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+                                        0x240 (size before relaxing)
+ .eh_frame      0x0000000008055108      0x1f0 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+                                        0x2c8 (size before relaxing)
+ .eh_frame      0x00000000080552f8       0x40 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+                                         0xb8 (size before relaxing)
+ .eh_frame      0x0000000008055338      0x200 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+                                        0x2dc (size before relaxing)
+ .eh_frame      0x0000000008055538       0x9c /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                                         0xb4 (size before relaxing)
+ .eh_frame      0x00000000080555d4      0x1f4 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+                                        0x20c (size before relaxing)
+ .eh_frame      0x00000000080557c8       0x20 /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x00000000080557e8       0x40 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000008055828       0xe4 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+                                        0x15c (size before relaxing)
+ .eh_frame      0x000000000805590c       0xc4 /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+                                         0xfc (size before relaxing)
+ .eh_frame      0x00000000080559d0      0x100 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+                                        0x420 (size before relaxing)
+ .eh_frame      0x0000000008055ad0       0x60 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000008055b30       0x64 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+                                         0x7c (size before relaxing)
+ .eh_frame      0x0000000008055b94       0x80 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+                                        0x118 (size before relaxing)
+ .eh_frame      0x0000000008055c14        0x0 /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+                                         0x38 (size before relaxing)
+ .eh_frame      0x0000000008055c14       0x40 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+                                         0x78 (size before relaxing)
+ .eh_frame      0x0000000008055c54       0x80 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+                                         0x98 (size before relaxing)
+ .eh_frame      0x0000000008055cd4        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/libgcc.a(_udivdi3.o)
+                                         0x9c (size before relaxing)
+ .eh_frame      0x0000000008055cd4       0x60 /usr/lib32/libc_nonshared.a(elf-init.oS)
+                                         0x8c (size before relaxing)
+ .eh_frame      0x0000000008055d34        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+ *(.eh_frame.*)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.gnu_extab
+ *(.gnu_extab*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+                0x0000000008056efc                . = DATA_SEGMENT_ALIGN (0x1000, 0x1000)
+
+.eh_frame
+ *(.eh_frame)
+ *(.eh_frame.*)
+
+.gnu_extab
+ *(.gnu_extab)
+
+.gcc_except_table
+ *(.gcc_except_table .gcc_except_table.*)
+
+.exception_ranges
+ *(.exception_ranges .exception_ranges*)
+
+.tdata
+ *(.tdata .tdata.* .gnu.linkonce.td.*)
+
+.tbss
+ *(.tbss .tbss.* .gnu.linkonce.tb.*)
+ *(.tcommon)
+
+.preinit_array  0x0000000008056efc        0x0
+                [!provide]                        PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                [!provide]                        PROVIDE (__preinit_array_end, .)
+
+.init_array     0x0000000008056efc        0x8
+                0x0000000008056efc                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*) SORT(.ctors.*))
+ *(.init_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .ctors)
+ .init_array    0x0000000008056efc        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ .init_array    0x0000000008056f00        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008056f04                PROVIDE (__init_array_end, .)
+
+.fini_array     0x0000000008056f04        0x4
+                [!provide]                        PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*) SORT(.dtors.*))
+ *(.fini_array EXCLUDE_FILE(*crtend?.o *crtend.o *crtbegin?.o *crtbegin.o) .dtors)
+ .fini_array    0x0000000008056f04        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+                [!provide]                        PROVIDE (__fini_array_end, .)
+
+.ctors
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+
+.dtors
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend?.o *crtend.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+
+.jcr            0x0000000008056f08        0x4
+ *(.jcr)
+ .jcr           0x0000000008056f08        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ .jcr           0x0000000008056f08        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+
+.data.rel.ro
+ *(.data.rel.ro.local* .gnu.linkonce.d.rel.ro.local.*)
+ *(.data.rel.ro .data.rel.ro.* .gnu.linkonce.d.rel.ro.*)
+
+.dynamic        0x0000000008056f0c       0xf0
+ *(.dynamic)
+ .dynamic       0x0000000008056f0c       0xf0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                0x0000000008056f0c                _DYNAMIC
+
+.got            0x0000000008056ffc        0x4
+ *(.got)
+ .got           0x0000000008056ffc        0x4 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+ *(.igot)
+                0x0000000008057ff4                . = DATA_SEGMENT_RELRO_END (., (SIZEOF (.got.plt) >= 0xc)?0xc:0x0)
+
+.got.plt        0x0000000008057000       0x80
+ *(.got.plt)
+ .got.plt       0x0000000008057000       0x80 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                0x0000000008057000                _GLOBAL_OFFSET_TABLE_
+ *(.igot.plt)
+ .igot.plt      0x0000000008057080        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+
+.data           0x0000000008057080       0x64
+ *(.data .data.* .gnu.linkonce.d.*)
+ .data.main_name
+                0x0000000008057080        0x4 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+                0x0000000008057080                main_name
+ .data.idle_name
+                0x0000000008057084        0x4 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+                0x0000000008057084                idle_name
+ *fill*         0x0000000008057088       0x18 
+ .data.state_names
+                0x00000000080570a0       0x2c /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+ .data.netdev_driver_tap
+                0x00000000080570cc       0x18 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+
+.tm_clone_table
+                0x00000000080570e4        0x0
+ .tm_clone_table
+                0x00000000080570e4        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ .tm_clone_table
+                0x00000000080570e4        0x0 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+
+.data1
+ *(.data1)
+                0x00000000080570e4                _edata = .
+                [!provide]                        PROVIDE (edata, .)
+                0x00000000080570e4                . = .
+                0x00000000080570e4                __bss_start = .
+
+.bss            0x0000000008057100    0x1a994
+ *(.dynbss)
+ .dynbss        0x0000000008057100       0x24 /usr/lib/gcc/x86_64-linux-gnu/5/../../../../lib32/crt1.o
+                0x0000000008057100                optind@@GLIBC_2.0
+                0x0000000008057104                stdout@@GLIBC_2.0
+                0x0000000008057120                optarg@@GLIBC_2.0
+ *(.bss .bss.* .gnu.linkonce.b.*)
+ .bss           0x0000000008057124        0x1 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+ *fill*         0x0000000008057125        0x3 
+ .bss._native_null_in_pipe
+                0x0000000008057128        0x8 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008057128                _native_null_in_pipe
+ .bss._native_null_out_file
+                0x0000000008057130        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008057130                _native_null_out_file
+ .bss._progname
+                0x0000000008057134        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008057134                _progname
+ .bss._native_argv
+                0x0000000008057138        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008057138                _native_argv
+ .bss._native_pid
+                0x000000000805713c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x000000000805713c                _native_pid
+ .bss._native_id
+                0x0000000008057140        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008057140                _native_id
+ .bss._native_rng_seed
+                0x0000000008057144        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008057144                _native_rng_seed
+ .bss._native_rng_mode
+                0x0000000008057148        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x0000000008057148                _native_rng_mode
+ .bss.netdev_tap_params
+                0x000000000805714c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+                0x000000000805714c                netdev_tap_params
+ .bss.busy      0x0000000008057150        0x4 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x0000000008057150                busy
+ .bss.and_param
+                0x0000000008057154        0xc /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x0000000008057154                and_param
+ .bss.t1_stack  0x0000000008057160     0x3000 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x0000000008057160                t1_stack
+ .bss.t2_stack  0x000000000805a160     0x3000 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x000000000805a160                t2_stack
+ .bss.t3_stack  0x000000000805d160     0x3000 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+                0x000000000805d160                t3_stack
+ .bss.sched_num_threads
+                0x0000000008060160        0x4 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008060160                sched_num_threads
+ .bss.sched_context_switch_request
+                0x0000000008060164        0x4 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008060164                sched_context_switch_request
+ *fill*         0x0000000008060168       0x18 
+ .bss.sched_threads
+                0x0000000008060180       0x84 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008060180                sched_threads
+ .bss.sched_active_thread
+                0x0000000008060204        0x4 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008060204                sched_active_thread
+ .bss.sched_active_pid
+                0x0000000008060208        0x2 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008060208                sched_active_pid
+ *fill*         0x000000000806020a       0x16 
+ .bss.sched_runqueues
+                0x0000000008060220       0x40 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+                0x0000000008060220                sched_runqueues
+ .bss.runqueue_bitcache
+                0x0000000008060260        0x4 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ *fill*         0x0000000008060264       0x1c 
+ .bss.main_stack
+                0x0000000008060280     0x3000 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .bss.idle_stack
+                0x0000000008063280     0x2000 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .bss.crashed   0x0000000008065280        0x4 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+ .bss.real_read
+                0x0000000008065284        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065284                real_read
+ .bss.real_write
+                0x0000000008065288        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065288                real_write
+ .bss.real_fread
+                0x000000000806528c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000806528c                real_fread
+ .bss.real_clearerr
+                0x0000000008065290        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065290                real_clearerr
+ .bss.real_exit
+                0x0000000008065294        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065294                real_exit
+ .bss.real_free
+                0x0000000008065298        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065298                real_free
+ .bss.real_malloc
+                0x000000000806529c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000806529c                real_malloc
+ .bss.real_calloc
+                0x00000000080652a0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652a0                real_calloc
+ .bss.real_realloc
+                0x00000000080652a4        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652a4                real_realloc
+ .bss.real_freeaddrinfo
+                0x00000000080652a8        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652a8                real_freeaddrinfo
+ .bss.real_freeifaddrs
+                0x00000000080652ac        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652ac                real_freeifaddrs
+ .bss.real_srandom
+                0x00000000080652b0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652b0                real_srandom
+ .bss.real_accept
+                0x00000000080652b4        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652b4                real_accept
+ .bss.real_bind
+                0x00000000080652b8        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652b8                real_bind
+ .bss.real_connect
+                0x00000000080652bc        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652bc                real_connect
+ .bss.real_printf
+                0x00000000080652c0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652c0                real_printf
+ .bss.real_getaddrinfo
+                0x00000000080652c4        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652c4                real_getaddrinfo
+ .bss.real_getifaddrs
+                0x00000000080652c8        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652c8                real_getifaddrs
+ .bss.real_gettimeofday
+                0x00000000080652cc        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652cc                real_gettimeofday
+ .bss.real_getpid
+                0x00000000080652d0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652d0                real_getpid
+ .bss.real_chdir
+                0x00000000080652d4        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652d4                real_chdir
+ .bss.real_close
+                0x00000000080652d8        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652d8                real_close
+ .bss.real_fcntl
+                0x00000000080652dc        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652dc                real_fcntl
+ .bss.real_creat
+                0x00000000080652e0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652e0                real_creat
+ .bss.real_dup2
+                0x00000000080652e4        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652e4                real_dup2
+ .bss.real_execve
+                0x00000000080652e8        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652e8                real_execve
+ .bss.real_fork
+                0x00000000080652ec        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652ec                real_fork
+ .bss.real_feof
+                0x00000000080652f0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652f0                real_feof
+ .bss.real_ferror
+                0x00000000080652f4        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652f4                real_ferror
+ .bss.real_listen
+                0x00000000080652f8        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652f8                real_listen
+ .bss.real_ioctl
+                0x00000000080652fc        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x00000000080652fc                real_ioctl
+ .bss.real_open
+                0x0000000008065300        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065300                real_open
+ .bss.real_pause
+                0x0000000008065304        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065304                real_pause
+ .bss.real_pipe
+                0x0000000008065308        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065308                real_pipe
+ .bss.real_select
+                0x000000000806530c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000806530c                real_select
+ .bss.real_setitimer
+                0x0000000008065310        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065310                real_setitimer
+ .bss.real_setsid
+                0x0000000008065314        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065314                real_setsid
+ .bss.real_setsockopt
+                0x0000000008065318        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065318                real_setsockopt
+ .bss.real_socket
+                0x000000000806531c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000806531c                real_socket
+ .bss.real_unlink
+                0x0000000008065320        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065320                real_unlink
+ .bss.real_random
+                0x0000000008065324        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065324                real_random
+ .bss.real_gai_strerror
+                0x0000000008065328        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065328                real_gai_strerror
+ .bss.real_fopen
+                0x000000000806532c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000806532c                real_fopen
+ .bss.real_fclose
+                0x0000000008065330        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065330                real_fclose
+ .bss.real_fseek
+                0x0000000008065334        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065334                real_fseek
+ .bss.real_fputc
+                0x0000000008065338        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065338                real_fputc
+ .bss.real_fgetc
+                0x000000000806533c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000806533c                real_fgetc
+ .bss.real_umask
+                0x0000000008065340        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065340                real_umask
+ .bss.real_writev
+                0x0000000008065344        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065344                real_writev
+ .bss.real_clock_gettime
+                0x0000000008065348        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065348                real_clock_gettime
+ .bss._native_in_malloc
+                0x000000000806534c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x000000000806534c                _native_in_malloc
+ .bss._native_in_calloc
+                0x0000000008065350        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+                0x0000000008065350                _native_in_calloc
+ .bss.native_interrupts_enabled
+                0x0000000008065354        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x0000000008065354                native_interrupts_enabled
+ .bss._native_in_isr
+                0x0000000008065358        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x0000000008065358                _native_in_isr
+ .bss._native_in_syscall
+                0x000000000806535c        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x000000000806535c                _native_in_syscall
+ .bss._native_sig_set
+                0x0000000008065360       0x80 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .bss._native_sig_set_dint
+                0x00000000080653e0       0x80 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .bss.__isr_stack
+                0x0000000008065460     0x2000 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x0000000008065460                __isr_stack
+ .bss.native_isr_context
+                0x0000000008067460      0x15c /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x0000000008067460                native_isr_context
+ .bss._native_cur_ctx
+                0x00000000080675bc        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x00000000080675bc                _native_cur_ctx
+ .bss._native_isr_ctx
+                0x00000000080675c0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x00000000080675c0                _native_isr_ctx
+ .bss._native_saved_eip
+                0x00000000080675c4        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x00000000080675c4                _native_saved_eip
+ .bss._native_sigpend
+                0x00000000080675c8        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x00000000080675c8                _native_sigpend
+ .bss._sig_pipefd
+                0x00000000080675cc        0x8 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x00000000080675cc                _sig_pipefd
+ *fill*         0x00000000080675d4        0xc 
+ .bss.native_irq_handlers
+                0x00000000080675e0      0x3fc /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x00000000080679dc        0x4 
+ .bss.sigalt_stk
+                0x00000000080679e0     0x2000 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+                0x00000000080679e0                sigalt_stk
+ .bss.sigstk.5157
+                0x00000000080699e0        0xc /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ *fill*         0x00000000080699ec       0x14 
+ .bss.end_context
+                0x0000000008069a00      0x15c /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x0000000008069a00                end_context
+ *fill*         0x0000000008069b5c        0x4 
+ .bss.__end_stack
+                0x0000000008069b60     0x2000 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+                0x0000000008069b60                __end_stack
+ .bss.tty_device_filenames
+                0x000000000806bb60        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .bss._in_handler
+                0x000000000806bb64        0x4 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .bss._long_cnt
+                0x000000000806bb68        0x4 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .bss.timer_list_head
+                0x000000000806bb6c        0x4 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .bss.overflow_list_head
+                0x000000000806bb70        0x4 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .bss.long_list_head
+                0x000000000806bb74        0x4 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ *fill*         0x000000000806bb78        0x8 
+ .bss.netdev_tap
+                0x000000000806bb80       0x28 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ *fill*         0x000000000806bba8       0x18 
+ .bss._netdev_eth_stack
+                0x000000000806bbc0     0x2000 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .bss._next_index
+                0x000000000806dbc0        0x4 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .bss._fds      0x000000000806dbc4        0x8 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .bss._args     0x000000000806dbcc        0x8 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .bss._native_async_read_callbacks
+                0x000000000806dbd4        0x8 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ *fill*         0x000000000806dbdc        0x4 
+ .bss._netifs   0x000000000806dbe0       0x20 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .bss._mutex    0x000000000806dc00        0x4 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ *fill*         0x000000000806dc04       0x1c 
+ .bss._pktbuf   0x000000000806dc20      0x800 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss._first_unused
+                0x000000000806e420        0x4 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss.max_byte_count
+                0x000000000806e424        0x2 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .bss.gnrc_pktdump_pid
+                0x000000000806e426        0x2 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+                0x000000000806e426                gnrc_pktdump_pid
+ *fill*         0x000000000806e428       0x18 
+ .bss._stack    0x000000000806e440     0x3000 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .bss.buf.5627  0x0000000008071440      0x5ea /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ *fill*         0x0000000008071a2a        0x2 
+ .bss._native_rtc_initialized
+                0x0000000008071a2c        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .bss._native_rtc_powered
+                0x0000000008071a30        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ *fill*         0x0000000008071a34        0xc 
+ .bss._native_rtc_alarm
+                0x0000000008071a40       0x2c /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .bss._native_rtc_alarm_callback
+                0x0000000008071a6c        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .bss._native_rtc_alarm_argument
+                0x0000000008071a70        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .bss.time_null
+                0x0000000008071a74        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .bss._callback
+                0x0000000008071a78        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .bss._cb_arg   0x0000000008071a7c        0x4 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .bss.itv       0x0000000008071a80       0x10 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .bss.netreg    0x0000000008071a90        0x4 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ *(COMMON)
+                0x0000000008071a94                . = ALIGN ((. != 0x0)?0x4:0x1)
+                0x0000000008071a94                . = ALIGN (0x4)
+                0x0000000008071a94                . = SEGMENT_START ("ldata-segment", .)
+                0x0000000008071a94                . = ALIGN (0x4)
+                0x0000000008071a94                _end = .
+                [!provide]                        PROVIDE (end, .)
+                0x0000000008071a94                . = DATA_SEGMENT_END (.)
+
+.stab
+ *(.stab)
+
+.stabstr
+ *(.stabstr)
+
+.stab.excl
+ *(.stab.excl)
+
+.stab.exclstr
+ *(.stab.exclstr)
+
+.stab.index
+ *(.stab.index)
+
+.stab.indexstr
+ *(.stab.indexstr)
+
+.comment        0x0000000000000000       0x34
+ *(.comment)
+ .comment       0x0000000000000000       0x34 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtbegin.o
+                                         0x35 (size before relaxing)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/cpu/startup.o
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/application_test.a(main.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/board.a(board_init.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(mutex.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(sched.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(kernel_init.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(assert.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(thread.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(panic.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/cpu.a(syscalls.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/cpu.a(irq_cpu.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/cpu.a(native_cpu.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/native-drivers.a(native-led.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/periph.a(uart.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/periph.a(pm.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/ps.a(ps.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer_core.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/xtimer.a(xtimer.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/periph_common.a(init.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/auto_init.a(auto_init.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/auto_init_gnrc_netif.a(auto_init_netdev_tap.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(msg.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/cpu.a(async_read.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/div.a(div.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif_ethernet.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif.a(gnrc_netif.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf.a(gnrc_pktbuf.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktbuf_static.a(gnrc_pktbuf_static.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_pktdump.a(gnrc_pktdump.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/netdev_tap.a(netdev_tap.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/od.a(od.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/periph.a(rtc.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/periph.a(timer.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/core.a(rmutex.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/fmt.a(fmt.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_netapi.a(gnrc_netapi.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_netif_hdr.a(gnrc_netif_hdr_print.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_netreg.a(gnrc_netreg.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/gnrc_pkt.a(gnrc_pkt.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/iolist.a(iolist.o)
+ .comment       0x0000000000000034       0x35 /home/waqar/RIOT/examples/test/bin/native/netdev_eth.a(netdev_eth.o)
+ .comment       0x0000000000000034       0x35 /usr/lib/gcc/x86_64-linux-gnu/5/32/crtend.o
+
+.debug
+ *(.debug)
+
+.line
+ *(.line)
+
+.debug_srcinfo
+ *(.debug_srcinfo)
+
+.debug_sfnames
+ *(.debug_sfnames)
+
+.debug_aranges
+ *(.debug_aranges)
+
+.debug_pubnames
+ *(.debug_pubnames)
+
+.debug_info
+ *(.debug_info .gnu.linkonce.wi.*)
+
+.debug_abbrev
+ *(.debug_abbrev)
+
+.debug_line
+ *(.debug_line .debug_line.* .debug_line_end)
+
+.debug_frame
+ *(.debug_frame)
+
+.debug_str
+ *(.debug_str)
+
+.debug_loc
+ *(.debug_loc)
+
+.debug_macinfo
+ *(.debug_macinfo)
+
+.debug_weaknames
+ *(.debug_weaknames)
+
+.debug_funcnames
+ *(.debug_funcnames)
+
+.debug_typenames
+ *(.debug_typenames)
+
+.debug_varnames
+ *(.debug_varnames)
+
+.debug_pubtypes
+ *(.debug_pubtypes)
+
+.debug_ranges
+ *(.debug_ranges)
+
+.debug_macro
+ *(.debug_macro)
+
+.gnu.attributes
+ *(.gnu.attributes)
+
+/DISCARD/
+ *(.note.GNU-stack)
+ *(.gnu_debuglink)
+ *(.gnu.lto_*)
+OUTPUT(/home/waqar/RIOT/examples/test/bin/native/test.elf elf32-i386)
